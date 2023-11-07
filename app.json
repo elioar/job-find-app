@@ -1,13 +1,20 @@
 {
   "expo": {
-    "scheme": "acme",
-    "web": {
-      "bundler": "metro"
+    "extra": {
+      "eas": {
+        "projectId": "78547cdc-f0e5-4181-960c-68f42cd53499"
+      },
+      "router": {
+        "origin": false
+      }
     },
+    "owner": "elio.dev",
+    "slug": "my-job",
     "plugins": [
       "expo-router"
     ],
-    "name": "Jobs_App",
-    "slug": "Jobs_App"
+    "android": {
+      "package": "com.elio.dev.myjob"
+    }
   }
 }
